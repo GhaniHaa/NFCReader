@@ -35,13 +35,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Tap The Card"
+                        android:textColor="@color/black"
                         android:textSize="24sp"
                         android:textStyle="bold" />
 
                     <TextView
+                        android:id="@+id/tvResult"
                         android:layout_width="281dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
+                        android:textColor="@color/black"
                         android:gravity="center"
                         android:text="NFC location can be either at the back or the front of this device"
                         android:textSize="14sp"
@@ -83,6 +86,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:text="NFC On"
+                        android:textColor="@color/black"
                         android:textSize="14sp"
                         android:textStyle="bold"
                         android:layout_marginLeft="10dp"/>
@@ -123,6 +127,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="left"
                         android:text="Card Number"
+                        android:textColor="@color/black"
                         android:textSize="18sp"
                         android:layout_marginTop="8dp"
                         android:textStyle="bold" />
@@ -130,6 +135,7 @@
                         android:layout_width="281dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
+                        android:textColor="@color/black"
                         android:gravity="left"
                         android:text="**** **** **** ****"
                         android:textSize="18sp"
@@ -138,6 +144,7 @@
                         android:layout_width="281dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
+                        android:textColor="@color/black"
                         android:gravity="left"
                         android:text="Balance"
                         android:textSize="14sp"
@@ -147,6 +154,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="8dp"
                         android:gravity="left"
+                        android:textColor="@color/black"
                         android:text="Rp. 000"
                         android:textSize="28sp"
                         android:textStyle="bold" />
