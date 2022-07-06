@@ -67,7 +67,7 @@ class MainActivity : AppCompatActivity() {
                 buildTagViews(msgs.toTypedArray())
             }
             else {
-                println("xxx1 ${myTag.toString()}")
+                Toast.makeText(this, "Cannot Read Card : Message is null", Toast.LENGTH_SHORT).show()
             }
         }
     }
