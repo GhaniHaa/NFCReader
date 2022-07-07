@@ -132,6 +132,7 @@
                         android:layout_marginTop="8dp"
                         android:textStyle="bold" />
                     <TextView
+                        android:id="@+id/tvCardNumber"
                         android:layout_width="281dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
@@ -150,12 +151,13 @@
                         android:textSize="14sp"
                         android:textStyle="bold" />
                     <TextView
+                        android:id="@+id/tvAmount"
                         android:layout_width="281dp"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="8dp"
                         android:gravity="left"
                         android:textColor="@color/black"
-                        android:text="Rp. 000"
+                        android:text="Rp. -"
                         android:textSize="28sp"
                         android:textStyle="bold" />
                 </LinearLayout>
